@@ -1,7 +1,7 @@
 {
   "name": "cn_rest_api",
   "version": "1.0.0",
-  "description": "Server for REST API",
+  "description": "Server for REST API / minimal MVC styles",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -12,6 +12,7 @@
     "start": "NODE_ENV=production node dist/index.js",
     "test": "mocha --compilers js:babel-register"
   },
+  "dotenv": true,
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
@@ -28,6 +29,7 @@
     "express": "^4.16.2",
     "graphql": "^0.11.7",
     "graphql-tools": "^2.6.1",
+    "mongoose": "^4.12.4",
     "request": "^2.83.0"
   }
 }
